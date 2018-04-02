@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  StarAPP
 //
-//  Created by 刘园 on 2018/4/2.
+//  Created by 橘子Star on 2018/4/2.
 //  Copyright © 2018年 橘子Star. All rights reserved.
 //
 
@@ -15,7 +15,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        self.window?.backgroundColor = UIColor.white
+        
+        self.window?.rootViewController = MyTabBar.MyTabBar()
+        
         return true
     }
 

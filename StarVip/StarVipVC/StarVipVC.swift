@@ -1,25 +1,23 @@
 //
-//  ViewController.swift
+//  StarVipVC.swift
 //  StarAPP
 //
-//  Created by 橘子Star on 2018/4/2.
+//  Created by 刘园 on 2018/4/2.
 //  Copyright © 2018年 橘子Star. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class StarVipVC: BaseVC {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+       self.title = "会员"
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
-
