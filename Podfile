@@ -6,7 +6,7 @@ target 'StarAPP' do
   use_frameworks!
 
   # Pods for StarAPP
-
+  pod 'Alamofire'
   target 'StarAPPTests' do
     inherit! :search_paths
     # Pods for testing

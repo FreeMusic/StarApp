@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180F2BC020E233AC008027FF /* BuyALotteryTicketVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180F2BBF20E233AC008027FF /* BuyALotteryTicketVC.swift */; };
+		180F2BC220E233BA008027FF /* MessageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180F2BC120E233BA008027FF /* MessageVC.swift */; };
+		180F2BC420E233C7008027FF /* MyCenterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180F2BC320E233C7008027FF /* MyCenterVC.swift */; };
+		180F2BC620E233D3008027FF /* TicketOrderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180F2BC520E233D3008027FF /* TicketOrderVC.swift */; };
 		1F2F291AB02CDC4491BE4B32 /* Pods_StarAPPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31505AB677233A114C4D1716 /* Pods_StarAPPTests.framework */; };
 		5436A1F1207256490063A187 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5436A1F0207256490063A187 /* AppDelegate.swift */; };
 		5436A1F3207256490063A187 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5436A1F2207256490063A187 /* ViewController.swift */; };
@@ -17,11 +21,6 @@
 		5436A211207256490063A187 /* StarAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5436A210207256490063A187 /* StarAPPUITests.swift */; };
 		5436A23420725D610063A187 /* MyTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5436A23320725D610063A187 /* MyTabBar.swift */; };
 		5436A24620725E7C0063A187 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5436A24520725E7C0063A187 /* BaseVC.swift */; };
-		5436A24820725F5D0063A187 /* StarHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5436A24720725F5D0063A187 /* StarHomeVC.swift */; };
-		5436A24A20725F770063A187 /* StarHotSpotVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5436A24920725F770063A187 /* StarHotSpotVC.swift */; };
-		5436A24C20725F860063A187 /* StarVipVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5436A24B20725F860063A187 /* StarVipVC.swift */; };
-		5436A24E20725F970063A187 /* StarShopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5436A24D20725F970063A187 /* StarShopVC.swift */; };
-		5436A25020725FA60063A187 /* StarMyCenterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5436A24F20725FA60063A187 /* StarMyCenterVC.swift */; };
 		5436A25220725FE90063A187 /* MyNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5436A25120725FE90063A187 /* MyNavigation.swift */; };
 		5436A254207260160063A187 /* MyPublic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5436A253207260160063A187 /* MyPublic.swift */; };
 		A0DEFFB8D33D510B6F5BAC89 /* Pods_StarAPPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A77C52CB602BE64753089A7 /* Pods_StarAPPUITests.framework */; };
@@ -47,6 +46,10 @@
 
 /* Begin PBXFileReference section */
 		0A77C52CB602BE64753089A7 /* Pods_StarAPPUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarAPPUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		180F2BBF20E233AC008027FF /* BuyALotteryTicketVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyALotteryTicketVC.swift; sourceTree = "<group>"; };
+		180F2BC120E233BA008027FF /* MessageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageVC.swift; sourceTree = "<group>"; };
+		180F2BC320E233C7008027FF /* MyCenterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCenterVC.swift; sourceTree = "<group>"; };
+		180F2BC520E233D3008027FF /* TicketOrderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketOrderVC.swift; sourceTree = "<group>"; };
 		2942B09CE77FCDE7F5EC68A2 /* Pods-StarAPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarAPP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StarAPP/Pods-StarAPP.debug.xcconfig"; sourceTree = "<group>"; };
 		31505AB677233A114C4D1716 /* Pods_StarAPPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarAPPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5436A1ED207256490063A187 /* StarAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,11 +67,6 @@
 		5436A212207256490063A187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5436A23320725D610063A187 /* MyTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBar.swift; sourceTree = "<group>"; };
 		5436A24520725E7C0063A187 /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
-		5436A24720725F5D0063A187 /* StarHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarHomeVC.swift; sourceTree = "<group>"; };
-		5436A24920725F770063A187 /* StarHotSpotVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarHotSpotVC.swift; sourceTree = "<group>"; };
-		5436A24B20725F860063A187 /* StarVipVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarVipVC.swift; sourceTree = "<group>"; };
-		5436A24D20725F970063A187 /* StarShopVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarShopVC.swift; sourceTree = "<group>"; };
-		5436A24F20725FA60063A187 /* StarMyCenterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarMyCenterVC.swift; sourceTree = "<group>"; };
 		5436A25120725FE90063A187 /* MyNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigation.swift; sourceTree = "<group>"; };
 		5436A253207260160063A187 /* MyPublic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPublic.swift; sourceTree = "<group>"; };
 		5A1C14FB853243BAD7FA59D6 /* Pods-StarAPPUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarAPPUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StarAPPUITests/Pods-StarAPPUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -107,6 +105,134 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		180F2BAF20E2336B008027FF /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				180F2BB020E2336B008027FF /* MessageModel */,
+				180F2BB120E2336B008027FF /* MessageVC */,
+				180F2BB220E2336B008027FF /* MessageView */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		180F2BB020E2336B008027FF /* MessageModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MessageModel;
+			sourceTree = "<group>";
+		};
+		180F2BB120E2336B008027FF /* MessageVC */ = {
+			isa = PBXGroup;
+			children = (
+				180F2BC120E233BA008027FF /* MessageVC.swift */,
+			);
+			path = MessageVC;
+			sourceTree = "<group>";
+		};
+		180F2BB220E2336B008027FF /* MessageView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MessageView;
+			sourceTree = "<group>";
+		};
+		180F2BB320E2336B008027FF /* TicketOrder */ = {
+			isa = PBXGroup;
+			children = (
+				180F2BB420E2336B008027FF /* TicketOrderModel */,
+				180F2BB520E2336B008027FF /* TicketOrderVC */,
+				180F2BB620E2336B008027FF /* TicketOrderView */,
+			);
+			path = TicketOrder;
+			sourceTree = "<group>";
+		};
+		180F2BB420E2336B008027FF /* TicketOrderModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TicketOrderModel;
+			sourceTree = "<group>";
+		};
+		180F2BB520E2336B008027FF /* TicketOrderVC */ = {
+			isa = PBXGroup;
+			children = (
+				180F2BC520E233D3008027FF /* TicketOrderVC.swift */,
+			);
+			path = TicketOrderVC;
+			sourceTree = "<group>";
+		};
+		180F2BB620E2336B008027FF /* TicketOrderView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TicketOrderView;
+			sourceTree = "<group>";
+		};
+		180F2BB720E2336B008027FF /* MyCenter */ = {
+			isa = PBXGroup;
+			children = (
+				180F2BB820E2336B008027FF /* MyCenterModel */,
+				180F2BB920E2336B008027FF /* MyCenterVC */,
+				180F2BBA20E2336B008027FF /* MyCenterView */,
+			);
+			path = MyCenter;
+			sourceTree = "<group>";
+		};
+		180F2BB820E2336B008027FF /* MyCenterModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MyCenterModel;
+			sourceTree = "<group>";
+		};
+		180F2BB920E2336B008027FF /* MyCenterVC */ = {
+			isa = PBXGroup;
+			children = (
+				180F2BC320E233C7008027FF /* MyCenterVC.swift */,
+			);
+			path = MyCenterVC;
+			sourceTree = "<group>";
+		};
+		180F2BBA20E2336B008027FF /* MyCenterView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MyCenterView;
+			sourceTree = "<group>";
+		};
+		180F2BBB20E2336C008027FF /* BuyALotteryTicket */ = {
+			isa = PBXGroup;
+			children = (
+				180F2BBC20E2336C008027FF /* BuyALotteryTicketModel */,
+				180F2BBD20E2336C008027FF /* BuyALotteryTicketVC */,
+				180F2BBE20E2336C008027FF /* BuyALotteryTicketView */,
+			);
+			path = BuyALotteryTicket;
+			sourceTree = "<group>";
+		};
+		180F2BBC20E2336C008027FF /* BuyALotteryTicketModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BuyALotteryTicketModel;
+			sourceTree = "<group>";
+		};
+		180F2BBD20E2336C008027FF /* BuyALotteryTicketVC */ = {
+			isa = PBXGroup;
+			children = (
+				180F2BBF20E233AC008027FF /* BuyALotteryTicketVC.swift */,
+			);
+			path = BuyALotteryTicketVC;
+			sourceTree = "<group>";
+		};
+		180F2BBE20E2336C008027FF /* BuyALotteryTicketView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BuyALotteryTicketView;
+			sourceTree = "<group>";
+		};
 		4186F5A5557CC51638E5328D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,14 +249,13 @@
 		5436A1E4207256490063A187 = {
 			isa = PBXGroup;
 			children = (
+				180F2BBB20E2336C008027FF /* BuyALotteryTicket */,
+				180F2BAF20E2336B008027FF /* Message */,
+				180F2BB720E2336B008027FF /* MyCenter */,
+				180F2BB320E2336B008027FF /* TicketOrder */,
 				5436A22F20725CBF0063A187 /* PCH */,
 				5436A22E20725CB60063A187 /* Tools */,
 				5436A22D20725CA90063A187 /* ThirdClass */,
-				5436A22C20725A730063A187 /* StarMycenter */,
-				5436A22B20725A670063A187 /* StarShop */,
-				5436A22A20725A5D0063A187 /* StarVip */,
-				5436A22920725A530063A187 /* StarHotSpot */,
-				5436A22820725A340063A187 /* StarHome */,
 				5436A1EF207256490063A187 /* StarAPP */,
 				5436A204207256490063A187 /* StarAPPTests */,
 				5436A20F207256490063A187 /* StarAPPUITests */,
@@ -181,56 +306,6 @@
 			path = StarAPPUITests;
 			sourceTree = "<group>";
 		};
-		5436A22820725A340063A187 /* StarHome */ = {
-			isa = PBXGroup;
-			children = (
-				5436A23720725D920063A187 /* StarHomeModel */,
-				5436A23620725D880063A187 /* StarHomeView */,
-				5436A23520725D7A0063A187 /* StarHomeVC */,
-			);
-			path = StarHome;
-			sourceTree = "<group>";
-		};
-		5436A22920725A530063A187 /* StarHotSpot */ = {
-			isa = PBXGroup;
-			children = (
-				5436A23A20725DBB0063A187 /* StarHotSpotModel */,
-				5436A23920725DAC0063A187 /* StarHotSpotView */,
-				5436A23820725D9D0063A187 /* StarHotSpotVC */,
-			);
-			path = StarHotSpot;
-			sourceTree = "<group>";
-		};
-		5436A22A20725A5D0063A187 /* StarVip */ = {
-			isa = PBXGroup;
-			children = (
-				5436A23D20725DEB0063A187 /* StarVipModel */,
-				5436A23C20725DD40063A187 /* StarVipView */,
-				5436A23B20725DC90063A187 /* StarVipVC */,
-			);
-			path = StarVip;
-			sourceTree = "<group>";
-		};
-		5436A22B20725A670063A187 /* StarShop */ = {
-			isa = PBXGroup;
-			children = (
-				5436A24020725E0D0063A187 /* StarShopModel */,
-				5436A23F20725E040063A187 /* StarShopView */,
-				5436A23E20725DF80063A187 /* StarShopVC */,
-			);
-			path = StarShop;
-			sourceTree = "<group>";
-		};
-		5436A22C20725A730063A187 /* StarMycenter */ = {
-			isa = PBXGroup;
-			children = (
-				5436A24320725E2E0063A187 /* StarMyCenterModel */,
-				5436A24220725E210063A187 /* StarMyCenterView */,
-				5436A24120725E160063A187 /* StarMyCenterVC */,
-			);
-			path = StarMycenter;
-			sourceTree = "<group>";
-		};
 		5436A22D20725CA90063A187 /* ThirdClass */ = {
 			isa = PBXGroup;
 			children = (
@@ -264,116 +339,6 @@
 			path = MyTabBar;
 			sourceTree = "<group>";
 		};
-		5436A23520725D7A0063A187 /* StarHomeVC */ = {
-			isa = PBXGroup;
-			children = (
-				5436A24720725F5D0063A187 /* StarHomeVC.swift */,
-			);
-			path = StarHomeVC;
-			sourceTree = "<group>";
-		};
-		5436A23620725D880063A187 /* StarHomeView */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = StarHomeView;
-			sourceTree = "<group>";
-		};
-		5436A23720725D920063A187 /* StarHomeModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = StarHomeModel;
-			sourceTree = "<group>";
-		};
-		5436A23820725D9D0063A187 /* StarHotSpotVC */ = {
-			isa = PBXGroup;
-			children = (
-				5436A24920725F770063A187 /* StarHotSpotVC.swift */,
-			);
-			path = StarHotSpotVC;
-			sourceTree = "<group>";
-		};
-		5436A23920725DAC0063A187 /* StarHotSpotView */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = StarHotSpotView;
-			sourceTree = "<group>";
-		};
-		5436A23A20725DBB0063A187 /* StarHotSpotModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = StarHotSpotModel;
-			sourceTree = "<group>";
-		};
-		5436A23B20725DC90063A187 /* StarVipVC */ = {
-			isa = PBXGroup;
-			children = (
-				5436A24B20725F860063A187 /* StarVipVC.swift */,
-			);
-			path = StarVipVC;
-			sourceTree = "<group>";
-		};
-		5436A23C20725DD40063A187 /* StarVipView */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = StarVipView;
-			sourceTree = "<group>";
-		};
-		5436A23D20725DEB0063A187 /* StarVipModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = StarVipModel;
-			sourceTree = "<group>";
-		};
-		5436A23E20725DF80063A187 /* StarShopVC */ = {
-			isa = PBXGroup;
-			children = (
-				5436A24D20725F970063A187 /* StarShopVC.swift */,
-			);
-			path = StarShopVC;
-			sourceTree = "<group>";
-		};
-		5436A23F20725E040063A187 /* StarShopView */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = StarShopView;
-			sourceTree = "<group>";
-		};
-		5436A24020725E0D0063A187 /* StarShopModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = StarShopModel;
-			sourceTree = "<group>";
-		};
-		5436A24120725E160063A187 /* StarMyCenterVC */ = {
-			isa = PBXGroup;
-			children = (
-				5436A24F20725FA60063A187 /* StarMyCenterVC.swift */,
-			);
-			path = StarMyCenterVC;
-			sourceTree = "<group>";
-		};
-		5436A24220725E210063A187 /* StarMyCenterView */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = StarMyCenterView;
-			sourceTree = "<group>";
-		};
-		5436A24320725E2E0063A187 /* StarMyCenterModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = StarMyCenterModel;
-			sourceTree = "<group>";
-		};
 		5436A24420725E540063A187 /* BaseVC */ = {
 			isa = PBXGroup;
 			children = (
@@ -404,7 +369,6 @@
 				5436A1EA207256490063A187 /* Frameworks */,
 				5436A1EB207256490063A187 /* Resources */,
 				495D3D81201EACA2642BAF66 /* [CP] Embed Pods Frameworks */,
-				1441C642B7650299C8A66114 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -423,8 +387,6 @@
 				5436A1FD207256490063A187 /* Sources */,
 				5436A1FE207256490063A187 /* Frameworks */,
 				5436A1FF207256490063A187 /* Resources */,
-				7550E17B2BF80FD11DB2C3FF /* [CP] Embed Pods Frameworks */,
-				2962D5F487A2D9A960EF1BA6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -444,8 +406,6 @@
 				5436A208207256490063A187 /* Sources */,
 				5436A209207256490063A187 /* Frameworks */,
 				5436A20A207256490063A187 /* Resources */,
-				E13FCD4B7D1F70A060AAC4CD /* [CP] Embed Pods Frameworks */,
-				AA4012EEE346FD2A9B9DCBCD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -531,36 +491,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1441C642B7650299C8A66114 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StarAPP/Pods-StarAPP-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2962D5F487A2D9A960EF1BA6 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StarAPPTests/Pods-StarAPPTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		36DAD2BF702068972CF3E393 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -585,9 +515,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-StarAPP/Pods-StarAPP-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -612,36 +545,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7550E17B2BF80FD11DB2C3FF /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StarAPPTests/Pods-StarAPPTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AA4012EEE346FD2A9B9DCBCD /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StarAPPUITests/Pods-StarAPPUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		BC312FF896E50EFB0917DA48 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -660,21 +563,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E13FCD4B7D1F70A060AAC4CD /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StarAPPUITests/Pods-StarAPPUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -682,17 +570,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5436A24E20725F970063A187 /* StarShopVC.swift in Sources */,
+				180F2BC220E233BA008027FF /* MessageVC.swift in Sources */,
 				5436A254207260160063A187 /* MyPublic.swift in Sources */,
+				180F2BC420E233C7008027FF /* MyCenterVC.swift in Sources */,
 				5436A1F3207256490063A187 /* ViewController.swift in Sources */,
 				5436A1F1207256490063A187 /* AppDelegate.swift in Sources */,
 				5436A23420725D610063A187 /* MyTabBar.swift in Sources */,
-				5436A24820725F5D0063A187 /* StarHomeVC.swift in Sources */,
-				5436A24A20725F770063A187 /* StarHotSpotVC.swift in Sources */,
-				5436A25020725FA60063A187 /* StarMyCenterVC.swift in Sources */,
 				5436A25220725FE90063A187 /* MyNavigation.swift in Sources */,
-				5436A24C20725F860063A187 /* StarVipVC.swift in Sources */,
+				180F2BC020E233AC008027FF /* BuyALotteryTicketVC.swift in Sources */,
 				5436A24620725E7C0063A187 /* BaseVC.swift in Sources */,
+				180F2BC620E233D3008027FF /* TicketOrderVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -860,7 +747,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9ZW85V7AG4;
 				INFOPLIST_FILE = StarAPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.--Star.StarAPP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -875,7 +764,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9ZW85V7AG4;
 				INFOPLIST_FILE = StarAPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.--Star.StarAPP";
 				PRODUCT_NAME = "$(TARGET_NAME)";

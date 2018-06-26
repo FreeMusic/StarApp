@@ -12,24 +12,20 @@ class MyTabBar: UITabBarController {
     
     class func MyTabBar() -> UITabBarController {
         let tabBarVC = UITabBarController()
-        //首页
-        let homeVC = StarHomeVC()
-        //热点
-        let hotSpotVC = StarHotSpotVC()
-        //会员
-        let vipVC = StarVipVC()
-        //商城
-        let shopVC = StarShopVC()
+        //彩票
+        let homeVC = BuyALotteryTicketVC()
+        //消息
+        let hotSpotVC = MessageVC()
+        //订单
+        let ticketOrderVC = TicketOrderVC()
         //个人中心
-        let myCenterVC = StarMyCenterVC()
-        //首页导航控制器
+        let myCenterVC = MyCenterVC()
+        //彩票导航控制器
         let homeNavi = MyNavigation.init(rootViewController: homeVC)
-        //热点导航控制器
+        //消息导航控制器
         let hotSpotNavi = MyNavigation.init(rootViewController: hotSpotVC)
         //会员导航控制器
-        let vipNavi = MyNavigation.init(rootViewController: vipVC)
-        //商城导航控制器
-        let shopNavi = MyNavigation.init(rootViewController: shopVC)
+        let vipNavi = MyNavigation.init(rootViewController: ticketOrderVC)
         //个人中心
         let myCenterNavi = MyNavigation.init(rootViewController: myCenterVC)
         
@@ -38,17 +34,17 @@ class MyTabBar: UITabBarController {
         
         let vipTabBarItem = UITabBarItem.init(title: "会员", image: (MyPublic.getImgView("home_tab_branc_btn")), selectedImage: (MyPublic.getImgView("home_tab_branc_selected_btn")))
         let myCenterTabBarItem = UITabBarItem.init(title: "个人中心", image: (MyPublic.getImgView("home_tab_personal_btn")), selectedImage: (MyPublic.getImgView("home_tab_personal_selected_btn")))
-        let shopTabBarItem = UITabBarItem.init(title: "商城", image: (MyPublic.getImgView("home_tab_point_btn")), selectedImage: (MyPublic.getImgView("home_tab_point_selected_btn")))
+//        let shopTabBarItem = UITabBarItem.init(title: "商城", image: (MyPublic.getImgView("home_tab_point_btn")), selectedImage: (MyPublic.getImgView("home_tab_point_selected_btn")))
         
         
         homeNavi.tabBarItem = homeTabBarItem
         hotSpotNavi.tabBarItem = hotSpotTabBarItem
         vipNavi.tabBarItem = vipTabBarItem
-        shopNavi.tabBarItem = shopTabBarItem
+//        shopNavi.tabBarItem = shopTabBarItem
         myCenterNavi.tabBarItem = myCenterTabBarItem
         
         tabBarVC.tabBar.tintColor = UIColor.red
-        tabBarVC.viewControllers = [homeNavi, hotSpotNavi, vipNavi, shopNavi, myCenterNavi]
+        tabBarVC.viewControllers = [homeNavi, hotSpotNavi, vipNavi, myCenterNavi]
         
         return tabBarVC;
     }
