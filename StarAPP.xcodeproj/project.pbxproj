@@ -11,16 +11,26 @@
 		180F2BC220E233BA008027FF /* MessageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180F2BC120E233BA008027FF /* MessageVC.swift */; };
 		180F2BC420E233C7008027FF /* MyCenterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180F2BC320E233C7008027FF /* MyCenterVC.swift */; };
 		180F2BC620E233D3008027FF /* TicketOrderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180F2BC520E233D3008027FF /* TicketOrderVC.swift */; };
+		188B43BB218BDAE0004D206B /* GJUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188B43B7218BDAE0004D206B /* GJUtil.swift */; };
+		188B43BC218BDAE0004D206B /* NetWorkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188B43B8218BDAE0004D206B /* NetWorkHelper.swift */; };
+		188B43BD218BDAE0004D206B /* SXYNetWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188B43B9218BDAE0004D206B /* SXYNetWork.swift */; };
+		188B43BE218BDAE0004D206B /* SXYNetworkReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188B43BA218BDAE0004D206B /* SXYNetworkReachability.swift */; };
+		188B43C3218BDB6C004D206B /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188B43C2218BDB6C004D206B /* BaseViewController.m */; };
+		188B43C8218BDBF6004D206B /* MyTableViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 188B43C7218BDBF6004D206B /* MyTableViewVC.m */; };
+		188B43CB218BDC04004D206B /* MyTableViewReFreshVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 188B43CA218BDC04004D206B /* MyTableViewReFreshVC.m */; };
+		188B43CF218BDD5C004D206B /* MyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 188B43CE218BDD5C004D206B /* MyModel.m */; };
+		188B43D3218BDD91004D206B /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 188B43D2218BDD91004D206B /* HomeModel.m */; };
+		188B43DD218BE06D004D206B /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 188B43DC218BE06D004D206B /* MyTableViewCell.m */; };
+		188B43E3218BE1AD004D206B /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188B43E2218BE1AD004D206B /* HomeCell.swift */; };
+		188B43E9218BE46E004D206B /* UILabel+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188B43E8218BE46E004D206B /* UILabel+Category.swift */; };
 		1F2F291AB02CDC4491BE4B32 /* Pods_StarAPPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31505AB677233A114C4D1716 /* Pods_StarAPPTests.framework */; };
 		5436A1F1207256490063A187 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5436A1F0207256490063A187 /* AppDelegate.swift */; };
-		5436A1F3207256490063A187 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5436A1F2207256490063A187 /* ViewController.swift */; };
 		5436A1F6207256490063A187 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5436A1F4207256490063A187 /* Main.storyboard */; };
 		5436A1F8207256490063A187 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5436A1F7207256490063A187 /* Assets.xcassets */; };
 		5436A1FB207256490063A187 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5436A1F9207256490063A187 /* LaunchScreen.storyboard */; };
 		5436A206207256490063A187 /* StarAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5436A205207256490063A187 /* StarAPPTests.swift */; };
 		5436A211207256490063A187 /* StarAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5436A210207256490063A187 /* StarAPPUITests.swift */; };
 		5436A23420725D610063A187 /* MyTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5436A23320725D610063A187 /* MyTabBar.swift */; };
-		5436A24620725E7C0063A187 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5436A24520725E7C0063A187 /* BaseVC.swift */; };
 		5436A25220725FE90063A187 /* MyNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5436A25120725FE90063A187 /* MyNavigation.swift */; };
 		5436A254207260160063A187 /* MyPublic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5436A253207260160063A187 /* MyPublic.swift */; };
 		A0DEFFB8D33D510B6F5BAC89 /* Pods_StarAPPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A77C52CB602BE64753089A7 /* Pods_StarAPPUITests.framework */; };
@@ -50,11 +60,29 @@
 		180F2BC120E233BA008027FF /* MessageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageVC.swift; sourceTree = "<group>"; };
 		180F2BC320E233C7008027FF /* MyCenterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCenterVC.swift; sourceTree = "<group>"; };
 		180F2BC520E233D3008027FF /* TicketOrderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketOrderVC.swift; sourceTree = "<group>"; };
+		188B43B7218BDAE0004D206B /* GJUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GJUtil.swift; sourceTree = "<group>"; };
+		188B43B8218BDAE0004D206B /* NetWorkHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorkHelper.swift; sourceTree = "<group>"; };
+		188B43B9218BDAE0004D206B /* SXYNetWork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SXYNetWork.swift; sourceTree = "<group>"; };
+		188B43BA218BDAE0004D206B /* SXYNetworkReachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SXYNetworkReachability.swift; sourceTree = "<group>"; };
+		188B43C1218BDB6C004D206B /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		188B43C2218BDB6C004D206B /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		188B43C6218BDBF6004D206B /* MyTableViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTableViewVC.h; sourceTree = "<group>"; };
+		188B43C7218BDBF6004D206B /* MyTableViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTableViewVC.m; sourceTree = "<group>"; };
+		188B43C9218BDC04004D206B /* MyTableViewReFreshVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTableViewReFreshVC.h; sourceTree = "<group>"; };
+		188B43CA218BDC04004D206B /* MyTableViewReFreshVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTableViewReFreshVC.m; sourceTree = "<group>"; };
+		188B43CD218BDD5C004D206B /* MyModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyModel.h; sourceTree = "<group>"; };
+		188B43CE218BDD5C004D206B /* MyModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyModel.m; sourceTree = "<group>"; };
+		188B43D1218BDD91004D206B /* HomeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeModel.h; sourceTree = "<group>"; };
+		188B43D2218BDD91004D206B /* HomeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeModel.m; sourceTree = "<group>"; };
+		188B43D7218BDE5F004D206B /* StarAppHeaderBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StarAppHeaderBridge.h; sourceTree = "<group>"; };
+		188B43DB218BE06D004D206B /* MyTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		188B43DC218BE06D004D206B /* MyTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		188B43E2218BE1AD004D206B /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		188B43E8218BE46E004D206B /* UILabel+Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Category.swift"; sourceTree = "<group>"; };
 		2942B09CE77FCDE7F5EC68A2 /* Pods-StarAPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarAPP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StarAPP/Pods-StarAPP.debug.xcconfig"; sourceTree = "<group>"; };
 		31505AB677233A114C4D1716 /* Pods_StarAPPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarAPPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5436A1ED207256490063A187 /* StarAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5436A1F0207256490063A187 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5436A1F2207256490063A187 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5436A1F5207256490063A187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5436A1F7207256490063A187 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5436A1FA207256490063A187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -66,7 +94,6 @@
 		5436A210207256490063A187 /* StarAPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarAPPUITests.swift; sourceTree = "<group>"; };
 		5436A212207256490063A187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5436A23320725D610063A187 /* MyTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBar.swift; sourceTree = "<group>"; };
-		5436A24520725E7C0063A187 /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
 		5436A25120725FE90063A187 /* MyNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigation.swift; sourceTree = "<group>"; };
 		5436A253207260160063A187 /* MyPublic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPublic.swift; sourceTree = "<group>"; };
 		5A1C14FB853243BAD7FA59D6 /* Pods-StarAPPUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarAPPUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StarAPPUITests/Pods-StarAPPUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -204,18 +231,11 @@
 		180F2BBB20E2336C008027FF /* BuyALotteryTicket */ = {
 			isa = PBXGroup;
 			children = (
-				180F2BBC20E2336C008027FF /* BuyALotteryTicketModel */,
+				188B43D8218BE02D004D206B /* HomeView */,
+				188B43D0218BDD84004D206B /* HomeModel */,
 				180F2BBD20E2336C008027FF /* BuyALotteryTicketVC */,
-				180F2BBE20E2336C008027FF /* BuyALotteryTicketView */,
 			);
 			path = BuyALotteryTicket;
-			sourceTree = "<group>";
-		};
-		180F2BBC20E2336C008027FF /* BuyALotteryTicketModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = BuyALotteryTicketModel;
 			sourceTree = "<group>";
 		};
 		180F2BBD20E2336C008027FF /* BuyALotteryTicketVC */ = {
@@ -226,11 +246,101 @@
 			path = BuyALotteryTicketVC;
 			sourceTree = "<group>";
 		};
-		180F2BBE20E2336C008027FF /* BuyALotteryTicketView */ = {
+		188B43B6218BDAE0004D206B /* NetWorkTools */ = {
 			isa = PBXGroup;
 			children = (
+				188B43B7218BDAE0004D206B /* GJUtil.swift */,
+				188B43B8218BDAE0004D206B /* NetWorkHelper.swift */,
+				188B43B9218BDAE0004D206B /* SXYNetWork.swift */,
+				188B43BA218BDAE0004D206B /* SXYNetworkReachability.swift */,
 			);
-			path = BuyALotteryTicketView;
+			path = NetWorkTools;
+			sourceTree = "<group>";
+		};
+		188B43BF218BDB5B004D206B /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				188B43C1218BDB6C004D206B /* BaseViewController.h */,
+				188B43C2218BDB6C004D206B /* BaseViewController.m */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		188B43C4218BDBE8004D206B /* MyTableViewVC */ = {
+			isa = PBXGroup;
+			children = (
+				188B43C6218BDBF6004D206B /* MyTableViewVC.h */,
+				188B43C7218BDBF6004D206B /* MyTableViewVC.m */,
+			);
+			path = MyTableViewVC;
+			sourceTree = "<group>";
+		};
+		188B43C5218BDBE8004D206B /* MyTableViewReFreshVC */ = {
+			isa = PBXGroup;
+			children = (
+				188B43C9218BDC04004D206B /* MyTableViewReFreshVC.h */,
+				188B43CA218BDC04004D206B /* MyTableViewReFreshVC.m */,
+			);
+			path = MyTableViewReFreshVC;
+			sourceTree = "<group>";
+		};
+		188B43CC218BDD4F004D206B /* MyModel */ = {
+			isa = PBXGroup;
+			children = (
+				188B43CD218BDD5C004D206B /* MyModel.h */,
+				188B43CE218BDD5C004D206B /* MyModel.m */,
+			);
+			path = MyModel;
+			sourceTree = "<group>";
+		};
+		188B43D0218BDD84004D206B /* HomeModel */ = {
+			isa = PBXGroup;
+			children = (
+				188B43D1218BDD91004D206B /* HomeModel.h */,
+				188B43D2218BDD91004D206B /* HomeModel.m */,
+			);
+			path = HomeModel;
+			sourceTree = "<group>";
+		};
+		188B43D8218BE02D004D206B /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				188B43E1218BE199004D206B /* HomeCell */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		188B43DA218BE050004D206B /* MyTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				188B43DB218BE06D004D206B /* MyTableViewCell.h */,
+				188B43DC218BE06D004D206B /* MyTableViewCell.m */,
+			);
+			path = MyTableViewCell;
+			sourceTree = "<group>";
+		};
+		188B43E1218BE199004D206B /* HomeCell */ = {
+			isa = PBXGroup;
+			children = (
+				188B43E2218BE1AD004D206B /* HomeCell.swift */,
+			);
+			path = HomeCell;
+			sourceTree = "<group>";
+		};
+		188B43E4218BE266004D206B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				188B43E5218BE266004D206B /* UILabel */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		188B43E5218BE266004D206B /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				188B43E8218BE46E004D206B /* UILabel+Category.swift */,
+			);
+			path = UILabel;
 			sourceTree = "<group>";
 		};
 		4186F5A5557CC51638E5328D /* Pods */ = {
@@ -251,8 +361,9 @@
 			children = (
 				180F2BBB20E2336C008027FF /* BuyALotteryTicket */,
 				180F2BAF20E2336B008027FF /* Message */,
-				180F2BB720E2336B008027FF /* MyCenter */,
 				180F2BB320E2336B008027FF /* TicketOrder */,
+				180F2BB720E2336B008027FF /* MyCenter */,
+				188B43E4218BE266004D206B /* Category */,
 				5436A22F20725CBF0063A187 /* PCH */,
 				5436A22E20725CB60063A187 /* Tools */,
 				5436A22D20725CA90063A187 /* ThirdClass */,
@@ -279,7 +390,7 @@
 			isa = PBXGroup;
 			children = (
 				5436A1F0207256490063A187 /* AppDelegate.swift */,
-				5436A1F2207256490063A187 /* ViewController.swift */,
+				188B43D7218BDE5F004D206B /* StarAppHeaderBridge.h */,
 				5436A1F4207256490063A187 /* Main.storyboard */,
 				5436A1F7207256490063A187 /* Assets.xcassets */,
 				5436A1F9207256490063A187 /* LaunchScreen.storyboard */,
@@ -317,7 +428,12 @@
 		5436A22E20725CB60063A187 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				5436A24420725E540063A187 /* BaseVC */,
+				188B43DA218BE050004D206B /* MyTableViewCell */,
+				188B43CC218BDD4F004D206B /* MyModel */,
+				188B43C5218BDBE8004D206B /* MyTableViewReFreshVC */,
+				188B43C4218BDBE8004D206B /* MyTableViewVC */,
+				188B43BF218BDB5B004D206B /* BaseViewController */,
+				188B43B6218BDAE0004D206B /* NetWorkTools */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -337,14 +453,6 @@
 				5436A253207260160063A187 /* MyPublic.swift */,
 			);
 			path = MyTabBar;
-			sourceTree = "<group>";
-		};
-		5436A24420725E540063A187 /* BaseVC */ = {
-			isa = PBXGroup;
-			children = (
-				5436A24520725E7C0063A187 /* BaseVC.swift */,
-			);
-			path = BaseVC;
 			sourceTree = "<group>";
 		};
 		AA9B705510D0A963E411226D /* Frameworks */ = {
@@ -429,6 +537,7 @@
 				TargetAttributes = {
 					5436A1EC207256490063A187 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0940;
 						ProvisioningStyle = Automatic;
 					};
 					5436A200207256490063A187 = {
@@ -517,10 +626,16 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-StarAPP/Pods-StarAPP-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -572,13 +687,23 @@
 			files = (
 				180F2BC220E233BA008027FF /* MessageVC.swift in Sources */,
 				5436A254207260160063A187 /* MyPublic.swift in Sources */,
+				188B43CB218BDC04004D206B /* MyTableViewReFreshVC.m in Sources */,
+				188B43BB218BDAE0004D206B /* GJUtil.swift in Sources */,
+				188B43E9218BE46E004D206B /* UILabel+Category.swift in Sources */,
 				180F2BC420E233C7008027FF /* MyCenterVC.swift in Sources */,
-				5436A1F3207256490063A187 /* ViewController.swift in Sources */,
+				188B43CF218BDD5C004D206B /* MyModel.m in Sources */,
+				188B43C3218BDB6C004D206B /* BaseViewController.m in Sources */,
+				188B43D3218BDD91004D206B /* HomeModel.m in Sources */,
 				5436A1F1207256490063A187 /* AppDelegate.swift in Sources */,
+				188B43C8218BDBF6004D206B /* MyTableViewVC.m in Sources */,
 				5436A23420725D610063A187 /* MyTabBar.swift in Sources */,
+				188B43DD218BE06D004D206B /* MyTableViewCell.m in Sources */,
 				5436A25220725FE90063A187 /* MyNavigation.swift in Sources */,
+				188B43E3218BE1AD004D206B /* HomeCell.swift in Sources */,
+				188B43BE218BDAE0004D206B /* SXYNetworkReachability.swift in Sources */,
+				188B43BC218BDAE0004D206B /* NetWorkHelper.swift in Sources */,
 				180F2BC020E233AC008027FF /* BuyALotteryTicketVC.swift in Sources */,
-				5436A24620725E7C0063A187 /* BaseVC.swift in Sources */,
+				188B43BD218BDAE0004D206B /* SXYNetWork.swift in Sources */,
 				180F2BC620E233D3008027FF /* TicketOrderVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -746,6 +871,7 @@
 			baseConfigurationReference = 2942B09CE77FCDE7F5EC68A2 /* Pods-StarAPP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9ZW85V7AG4;
 				INFOPLIST_FILE = StarAPP/Info.plist;
@@ -753,6 +879,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.--Star.StarAPP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/apple/Desktop/Swift/StarApp/StarAPP/StarAppHeaderBridge.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -763,6 +891,7 @@
 			baseConfigurationReference = 898A3A9FCA3EF2615A3079D2 /* Pods-StarAPP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9ZW85V7AG4;
 				INFOPLIST_FILE = StarAPP/Info.plist;
@@ -770,6 +899,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.--Star.StarAPP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/apple/Desktop/Swift/StarApp/StarAPP/StarAppHeaderBridge.h;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

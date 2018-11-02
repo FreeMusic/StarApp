@@ -8,29 +8,29 @@
 
 import UIKit
 
-class BuyALotteryTicketVC: BaseVC {
+class BuyALotteryTicketVC: MyTableViewReFreshVC {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-        
+        self.title = "首页"
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = HomeCell.init(style: UITableViewCellStyle.value1, reuseIdentifier: "MyTableViewCell")
+        let model = self.dataSource[indexPath.row]
+        cell.setMyHomeModel(model: model as! HomeModel)
+        
+        return cell
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    override func setUpData() {
+        let localPara:[String:Any] = ["pageNumber":NSString.init(format: "%d", self.page)]
+        NetWorkHelper.tool.requestMainViewControllerData(url: "http://www.zhongleme.net/news/list", params: localPara) { (result) in
+            self.refreshTableView(withDataSource: result.list)
+        }
     }
-    */
-
+    
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 100
+    }
 }
