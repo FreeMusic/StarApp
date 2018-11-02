@@ -23,6 +23,7 @@ class HomeCell: MyTableViewCell {
         imgView.backgroundColor = UIColor.blue
         self.addSubview(imgView)
         imgView.frame = CGRect.init(x: 0, y: 30, width: UIScreen.main.bounds.size.width, height: 70)
+        
     }
     
     

@@ -45,7 +45,27 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
+    /*
+     总结：自定义Log：
+     v定义Log 1. 定义Log的打印内容
+     打印所在的 件 #FILE 打印所在的方法 #FUNCTION 打印所在的行 #LINE
+     默认参数：当在方法中传参数时，也可以传入默认参数，定义：file : String = #file
+     全局函数：在AppDelegate中定义全局函数：泛型传打印内容：func XMGLog<T>(_ messsage : T, file : String = #file, funcName : String = #function, lineNum : Int = #line)
+     2.Log在Debug下 打印,在release下 不打印
+     定义标记项 —>buildSettings—>搜索swift flag—>Debug -> -D DEBUG 做标记--------在项目中实现：#if DEBUG    #endif
+     
+     */
+    
+    func XMGLog<T>(_ messsage : T, file : String = #file, funcName : String = #function, lineNum : Int = #line) {
+        
+        #if DEBUG
+        
+        let fileName = (file as NSString).lastPathComponent
+        
+        print("\(fileName):(\(lineNum))-\(messsage)")
+        
+        #endif
+    }
 
 }
 

@@ -23,6 +23,9 @@
 		188B43DD218BE06D004D206B /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 188B43DC218BE06D004D206B /* MyTableViewCell.m */; };
 		188B43E3218BE1AD004D206B /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188B43E2218BE1AD004D206B /* HomeCell.swift */; };
 		188B43E9218BE46E004D206B /* UILabel+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188B43E8218BE46E004D206B /* UILabel+Category.swift */; };
+		189AB3A2218C4DA700CA6A02 /* MacroDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189AB3A1218C4DA700CA6A02 /* MacroDefinition.swift */; };
+		189AB3A4218C4E7300CA6A02 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189AB3A3218C4E7300CA6A02 /* API.swift */; };
+		189AB3A7218C4F7500CA6A02 /* UIColor+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189AB3A6218C4F7500CA6A02 /* UIColor+Category.swift */; };
 		1F2F291AB02CDC4491BE4B32 /* Pods_StarAPPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31505AB677233A114C4D1716 /* Pods_StarAPPTests.framework */; };
 		5436A1F1207256490063A187 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5436A1F0207256490063A187 /* AppDelegate.swift */; };
 		5436A1F6207256490063A187 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5436A1F4207256490063A187 /* Main.storyboard */; };
@@ -79,6 +82,10 @@
 		188B43DC218BE06D004D206B /* MyTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
 		188B43E2218BE1AD004D206B /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
 		188B43E8218BE46E004D206B /* UILabel+Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Category.swift"; sourceTree = "<group>"; };
+		189AB39E218C4B0D00CA6A02 /* StarPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StarPrefixHeader.pch; sourceTree = "<group>"; };
+		189AB3A1218C4DA700CA6A02 /* MacroDefinition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacroDefinition.swift; sourceTree = "<group>"; };
+		189AB3A3218C4E7300CA6A02 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		189AB3A6218C4F7500CA6A02 /* UIColor+Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Category.swift"; sourceTree = "<group>"; };
 		2942B09CE77FCDE7F5EC68A2 /* Pods-StarAPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarAPP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StarAPP/Pods-StarAPP.debug.xcconfig"; sourceTree = "<group>"; };
 		31505AB677233A114C4D1716 /* Pods_StarAPPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarAPPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5436A1ED207256490063A187 /* StarAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -330,6 +337,7 @@
 		188B43E4218BE266004D206B /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				189AB3A5218C4F6500CA6A02 /* UIColor */,
 				188B43E5218BE266004D206B /* UILabel */,
 			);
 			path = Category;
@@ -341,6 +349,24 @@
 				188B43E8218BE46E004D206B /* UILabel+Category.swift */,
 			);
 			path = UILabel;
+			sourceTree = "<group>";
+		};
+		189AB39D218C4AEC00CA6A02 /* PCH */ = {
+			isa = PBXGroup;
+			children = (
+				189AB39E218C4B0D00CA6A02 /* StarPrefixHeader.pch */,
+				189AB3A1218C4DA700CA6A02 /* MacroDefinition.swift */,
+				189AB3A3218C4E7300CA6A02 /* API.swift */,
+			);
+			path = PCH;
+			sourceTree = "<group>";
+		};
+		189AB3A5218C4F6500CA6A02 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				189AB3A6218C4F7500CA6A02 /* UIColor+Category.swift */,
+			);
+			path = UIColor;
 			sourceTree = "<group>";
 		};
 		4186F5A5557CC51638E5328D /* Pods */ = {
@@ -359,12 +385,12 @@
 		5436A1E4207256490063A187 = {
 			isa = PBXGroup;
 			children = (
+				189AB39D218C4AEC00CA6A02 /* PCH */,
 				180F2BBB20E2336C008027FF /* BuyALotteryTicket */,
 				180F2BAF20E2336B008027FF /* Message */,
 				180F2BB320E2336B008027FF /* TicketOrder */,
 				180F2BB720E2336B008027FF /* MyCenter */,
 				188B43E4218BE266004D206B /* Category */,
-				5436A22F20725CBF0063A187 /* PCH */,
 				5436A22E20725CB60063A187 /* Tools */,
 				5436A22D20725CA90063A187 /* ThirdClass */,
 				5436A1EF207256490063A187 /* StarAPP */,
@@ -436,13 +462,6 @@
 				188B43B6218BDAE0004D206B /* NetWorkTools */,
 			);
 			path = Tools;
-			sourceTree = "<group>";
-		};
-		5436A22F20725CBF0063A187 /* PCH */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = PCH;
 			sourceTree = "<group>";
 		};
 		5436A23220725D280063A187 /* MyTabBar */ = {
@@ -685,9 +704,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189AB3A4218C4E7300CA6A02 /* API.swift in Sources */,
 				180F2BC220E233BA008027FF /* MessageVC.swift in Sources */,
 				5436A254207260160063A187 /* MyPublic.swift in Sources */,
 				188B43CB218BDC04004D206B /* MyTableViewReFreshVC.m in Sources */,
+				189AB3A2218C4DA700CA6A02 /* MacroDefinition.swift in Sources */,
 				188B43BB218BDAE0004D206B /* GJUtil.swift in Sources */,
 				188B43E9218BE46E004D206B /* UILabel+Category.swift in Sources */,
 				180F2BC420E233C7008027FF /* MyCenterVC.swift in Sources */,
@@ -696,6 +717,7 @@
 				188B43D3218BDD91004D206B /* HomeModel.m in Sources */,
 				5436A1F1207256490063A187 /* AppDelegate.swift in Sources */,
 				188B43C8218BDBF6004D206B /* MyTableViewVC.m in Sources */,
+				189AB3A7218C4F7500CA6A02 /* UIColor+Category.swift in Sources */,
 				5436A23420725D610063A187 /* MyTabBar.swift in Sources */,
 				188B43DD218BE06D004D206B /* MyTableViewCell.m in Sources */,
 				5436A25220725FE90063A187 /* MyNavigation.swift in Sources */,
@@ -874,12 +896,13 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9ZW85V7AG4;
+				GCC_PREFIX_HEADER = /Users/apple/Desktop/Swift/StarApp/PCH/StarPrefixHeader.pch;
 				INFOPLIST_FILE = StarAPP/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.--Star.StarAPP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = /Users/apple/Desktop/Swift/StarApp/StarAPP/StarAppHeaderBridge.h;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/StarAPP/StarAppHeaderBridge.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -894,12 +917,13 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9ZW85V7AG4;
+				GCC_PREFIX_HEADER = /Users/apple/Desktop/Swift/StarApp/PCH/StarPrefixHeader.pch;
 				INFOPLIST_FILE = StarAPP/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.--Star.StarAPP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = /Users/apple/Desktop/Swift/StarApp/StarAPP/StarAppHeaderBridge.h;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/StarAPP/StarAppHeaderBridge.h";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
