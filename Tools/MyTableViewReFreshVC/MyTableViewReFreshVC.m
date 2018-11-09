@@ -23,18 +23,18 @@
     [self serviceData];
     self.navigationController.navigationBar.translucent = NO;
 }
-    /**
-     数据源
-     */
+/**
+ 数据源
+ */
 - (NSMutableArray *)dataSource{
     if(!_dataSource){
         _dataSource = [NSMutableArray array];
     }
     return _dataSource;
 }
-    /**
-     请求数据
-     */
+/**
+ 请求数据
+ */
 - (void)serviceData{
     __weak typeof(self) weakSelf = self;
     //仿微博的下拉刷新
@@ -53,19 +53,19 @@
     // 默认先隐藏footer
     self.tableView.mj_footer.hidden = NO;
 }
-    
+
 #pragma  UITableViewDataSource---numberOfRowsInSection
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     return self.dataSource.count;
 }
-    
+
 #pragma mark - 消息数据
 -(void)setUpData{
     
 }
-    /**
-     请求数据成功后 刷新tableView
-     */
+/**
+ 请求数据成功后 刷新tableView
+ */
 - (void)refreshTableViewWithDataSource:(NSArray *)array{
     if (self.page==1) {
         self.dataSource = [NSMutableArray arrayWithArray:array];
@@ -85,19 +85,19 @@
         [self.tableView.mj_footer endRefreshingWithNoMoreData];//没有数据可以加载
     }
 }
-    
+
 - (void)layOutTableView{
     //    [self.tableView makeConstraints:^(MASConstraintMaker *make) {
     //        make.edges.equalTo(UIEdgeInsetsMake(0, 0, 0, 0));
     //    }];
 }
-    
+
 - (void)viewWillDisappear:(BOOL)animated{
     [super viewWillDisappear:animated];
     // 结束刷新
     [self.tableView.mj_header endRefreshing];
 }
-    
+
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
 }

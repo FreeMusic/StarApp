@@ -9,9 +9,9 @@
 #import "BaseViewController.h"
 
 @interface MyTableViewVC : BaseViewController<UITableViewDelegate, UITableViewDataSource>
-    
-    @property (nonatomic, strong) UITableView *tableView;
-    
-    @property (nonatomic, strong) UIImageView *noDataImgView;//无数据背景图
+
+@property (nonatomic, strong) UITableView *tableView;
+
+@property (nonatomic, strong) UIImageView *noDataImgView;//无数据背景图
 
 @end

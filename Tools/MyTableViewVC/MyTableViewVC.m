@@ -18,9 +18,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
-    /**
-     tableView的懒加载
-     */
+/**
+ tableView的懒加载
+ */
 - (UITableView *)tableView{
     if (!_tableView) {
         _tableView = [[UITableView alloc] initWithFrame:self.view.bounds];
@@ -37,9 +37,9 @@
     
     return _tableView;
 }
-    /**
-     无数据背景图
-     */
+/**
+ 无数据背景图
+ */
 - (UIImageView *)noDataImgView{
     if(!_noDataImgView){
         _noDataImgView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"withOutData"]];
@@ -55,7 +55,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     return nil;
 }
-    
+
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
     UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
