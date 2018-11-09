@@ -24,7 +24,6 @@ class NetWorkHelper: NSObject {
     }
     
     var localPara:[String:Any] = ["pageNumber":"1"]
-    //"http://www.zhongleme.net/news/list"
     //首页
     func requestMainViewControllerData(url:String, params: [String:Any], _ comp:@escaping ((result) -> Void)){
         SXYNetWork.requestWith(Method: .get, URL: url, Parameter: params, Token: nil) { (res) in

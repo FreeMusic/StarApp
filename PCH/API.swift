@@ -7,3 +7,14 @@
 //
 
 import Foundation
+/**
+ 服务器地址
+ */
+let ServicerIPAddress = "http://www.zhongleme.net"
+
+
+/**
+ 接口地址
+ */
+let NewsList = "/news/list"//新闻列表
+
