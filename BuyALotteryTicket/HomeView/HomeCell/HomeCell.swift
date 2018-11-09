@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Kingfisher
+import SnapKit
 
 class HomeCell: MyTableViewCell {
     
@@ -22,8 +24,12 @@ class HomeCell: MyTableViewCell {
         imgView = UIImageView.init()
         imgView.backgroundColor = UIColor.blue
         self.addSubview(imgView)
-        imgView.frame = CGRect.init(x: 0, y: 30, width: UIScreen.main.bounds.size.width, height: 70)
-        
+        imgView.snp.makeConstraints { (make) in
+            make.left.equalTo(0)
+            make.bottom.equalTo(0)
+            make.top.equalTo(nameLabel.snp.bottom)
+            make.right.equalTo(0)
+        }
     }
     
     
@@ -37,7 +43,8 @@ class HomeCell: MyTableViewCell {
     
     func setMyHomeModel(model: HomeModel) {
         self.nameLabel.text = model.title
-        
+        let imgURLs = model.imgUrl.components(separatedBy: ",")
+        self.imgView.kf.setImage(with: ImageResource(downloadURL: URL.init(string: imgURLs.first!)!))
     }
     
     required init?(coder aDecoder: NSCoder) {

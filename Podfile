@@ -8,8 +8,9 @@ target 'StarAPP' do
   # Pods for StarAPP
   pod 'Alamofire'
   pod 'MJRefresh'
-  pod 'SwiftyJSON'
   pod 'SVProgressHUD'
+  pod 'Kingfisher', '~>3.9.1'
+  pod 'SnapKit'
   
   target 'StarAPPTests' do
     inherit! :search_paths

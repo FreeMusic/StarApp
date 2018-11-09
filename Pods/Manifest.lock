@@ -1,28 +1,32 @@
 PODS:
   - Alamofire (4.7.2)
+  - Kingfisher (3.9.1)
   - MJRefresh (3.1.15.7)
+  - SnapKit (4.0.1)
   - SVProgressHUD (2.2.5)
-  - SwiftyJSON (4.1.0)
 
 DEPENDENCIES:
   - Alamofire
+  - Kingfisher (~> 3.9.1)
   - MJRefresh
+  - SnapKit
   - SVProgressHUD
-  - SwiftyJSON
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
+    - Kingfisher
     - MJRefresh
+    - SnapKit
     - SVProgressHUD
-    - SwiftyJSON
 
 SPEC CHECKSUMS:
   Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  Kingfisher: 6729a0baaa458245bfb8cd5a1296c71c10d6eb6c
   MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
-  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
 
-PODFILE CHECKSUM: e6e8f38c02f56a314f784fe50003638a74788068
+PODFILE CHECKSUM: 775713b58ab9d18e520527fdd3871390a0ac8177
 
 COCOAPODS: 1.5.3

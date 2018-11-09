@@ -14,7 +14,6 @@
 #import "MyTableViewReFreshVC.h"
 #import "HomeModel.h"
 #import "MyTableViewCell.h"
-#import "StarPrefixHeader.pch"
 
 
 #endif /* StarAppHeaderBridge_h */
