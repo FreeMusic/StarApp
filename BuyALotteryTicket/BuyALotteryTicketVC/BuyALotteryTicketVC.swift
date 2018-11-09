@@ -13,6 +13,7 @@ class BuyALotteryTicketVC: MyTableViewReFreshVC {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "首页"
+        self.tableView.frame = CGRect.init(x: 0, y: 0, width: kScreenWidth, height: kScreenHeight)
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

@@ -22,7 +22,6 @@ class HomeCell: MyTableViewCell {
         self.selectionStyle = UITableViewCellSelectionStyle.none
 
         imgView = UIImageView.init()
-        imgView.backgroundColor = UIColor.blue
         self.addSubview(imgView)
         imgView.snp.makeConstraints { (make) in
             make.left.equalTo(0)
@@ -45,6 +44,7 @@ class HomeCell: MyTableViewCell {
         self.nameLabel.text = model.title
         let imgURLs = model.imgUrl.components(separatedBy: ",")
         self.imgView.kf.setImage(with: ImageResource(downloadURL: URL.init(string: imgURLs.first!)!))
+//        self.imgView.backgroundColor = UIColor.FromRGB(hexadecimal: "#778ef2")
     }
     
     required init?(coder aDecoder: NSCoder) {
